@@ -17,5 +17,3 @@ def launch():
 	xbmcgui.Dialog().ok("Failed to launch", "Failed to launch script %s" % cmd)
 
 launch()
-
-# Thanks to shrimpza for providing this script [https://github.com/shrimpza/kodi-addons/blob/master/script.launcher.firefox/launcher.py]
