@@ -17,6 +17,7 @@ This is base configuration for your addon.
 This is a script file, that will be executed after launching your addon from Kodi.
 # Installation
 To install your addon you need to build it first. Here are possible **make** rules that you can do:
-- `make` - make configurations and build addon.zip
+- `make` - configure and build addon.zip
 - `make install` - install addon to default Kodi directiory
-- `make uninstall` remove addon from default Kodi directiory
+- `make uninstall` - remove addon from default Kodi directiory
+- `make clean` - remove build directory
