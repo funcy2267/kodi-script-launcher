@@ -14,6 +14,6 @@ def launch():
 		subprocess.call(["chmod", "+x", cmd])
 		subprocess.call('"' + cmd + '"', shell=True)
 	except:
-	xbmcgui.Dialog().ok("Failed to launch", "Failed to launch script %s" % cmd)
+		xbmcgui.Dialog().ok("Failed to launch", "Failed to launch script %s" % cmd)
 
 launch()
