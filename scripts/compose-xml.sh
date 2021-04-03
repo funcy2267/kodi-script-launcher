@@ -3,7 +3,7 @@
 FILE='addon.xml'
 CONFIG='config.txt'
 
-variable () { cat $CONFIG | grep $1 | cut -d "=" -f2- ; }
+variable () { grep $1 $CONFIG | cut -d "=" -f2- ; }
 
 touch $FILE
 echo "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>" | tee $FILE
