@@ -1,3 +1,4 @@
+# Credits: https://github.com/shrimpza/kodi-addons
 import os, subprocess
 import xbmcaddon, xbmc, xbmcgui
 
