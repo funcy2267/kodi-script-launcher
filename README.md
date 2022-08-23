@@ -1,5 +1,5 @@
 # About
-This script lets you easily make your own Kodi addon, that will execute your script directly from GUI.
+This script lets you easily make your own Kodi addon, that will execute your bash script on Linux directly from GUI.
 # Configuration
 You have to configure two files for your addon.\
 Base configuration for your addon is `config.txt`:
